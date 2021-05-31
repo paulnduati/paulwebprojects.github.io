@@ -37,18 +37,37 @@
                 color:red;
                 font-weight:bold;
             }
+            #header{
+                position:fixed;
+                margin:10px;
+            }
+            #up{
+                position:absolute;
+                bottom:10px;
+                right:10px;
+                z-index: 2;
+            }
+            .article{
+                float: left;
+                padding: 10px;
+                width: 30%;
+                margin-right:10px;
+            }
         </style>
     </head>
     <body>
-        
-        <h1>Paul's blog</h1>
-
-        <h3 id="contents">Contents</h3>
-        <ul>
-            <li><a  href="#blog1">1. What scared me most during the pandemic</a></li>
-            <li><a  href="#blog2">2. My love affair with cooking</a></li>
-        </ul>
-        
+        <div id="header">
+            <h1>Paul's blog</h1>
+        </div>
+        <div id="toc">
+            <h3 id="contents">Contents</h3>
+            <ul>
+                <li><a  href="#blog1">1. What scared me most during the pandemic</a></li>
+                <li><a  href="#blog2">2. My love affair with cooking</a></li>
+            </ul><
+        /div>
+        <div class="article">
+<!--________________________________Second blog_______________________________-->
         <h2 id="blog1">What scared me most during the pandemic</h2>
         <h6>Posted on 1-May-2021</h6>
         
@@ -63,8 +82,7 @@
         <p>The intravenous injection via which my medicine was administered was no picnic either, but I withstood the physical pain for about 20 minutes knowing I didn't have the coronavirus. After leaving the hospital on my way to grab lunch, I went on to Google what those words were on that piece of paper. It turns out I had a rare condition called pleurisy, which inflames the tissue that separates and therefore protects a person's lungs from their rib cage. The inflamed tissue was pressing against my lungs, which is why I felt like I couldn't breathe.</p>
         <p>It took me about a month to fully recover physically, but those first 24 hours were the most scared I have been throughout this ongoing pandemic.</p>
         
-        <a class="scroll" href="#contents">Back to table of contents</a>
-        <!--________Second blog_______-->
+<!--________________________________Second blog_______________________________-->
         <h2 id="blog2">My love affair with cooking</h2>
         <h6>Posted on 8-May-2021</h6>
         
@@ -76,6 +94,8 @@
         <p>I find that I'm able to pick up on preparing dishes rather quickly when am in the same kitchen with the person preparing that dish. I am a visual learner. My cooking improved drastically by watching my brother cook, and my sister later on when she came back from her time abroad. I would watch them, take note of the ingredients, how the food smelled while it was cooking, how they prepared and added the spices, what color the dishes would look like and then go on and try the same thing at first, gradually deviating and trying different things myself.</p>
         <p>I knew I loved cooking rather early on in my time as a the main cook in the house (my elder brother was off in University and usually took over the cooking when he'd be home for the weekend once a month), when dad* had got home from work one evening and my sister had just come to town for a brief stay, and dad* went on to praise my cooking to her. I've loved cooking ever since, holding onto the tale my aunt told me about bio-dad and knowing that dad* enjoys my cooking, except on those days when the hand that tips the salt tips a little too generously (my cooking has a fatal flaw that I can't seem to shake - I never taste the food while it's on the fire).</p>
         <p></p>
-        <a class="scroll" href="#contents">Back to table of contents</a>
+        </div>
+        
+        <div id="up"><a class="scroll" href="#header">Back to top</a></div>
     </body>
 </html>
