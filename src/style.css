@@ -1,19 +1,19 @@
 body{
-    background-color: rgb(102,153,153);
+    background-color: rgb(176,233,233);
 }
 header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
     height: 100px;
-    background-color: rgb(13,77,77);
+    background-color: rgb(149,220,220);
     overflow: hidden;
+    color:rgb(0, 32, 32);
 }
 .logo{
     width: 50px;
     margin-left: 10px;
     margin-top: 5px;
     float: left;
-    position: absolute;
 }
 #header{
     float: left;
@@ -22,6 +22,7 @@ header{
 nav{
     float: right;
     width: 30%;
+    padding-top: 50px;
 }
 article{
     width: 80%;
