@@ -1,8 +1,44 @@
+body{
+    background-color: rgb(102,153,153);
+}
 header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(13,77,77);
+    overflow: hidden;
 }
-nav{}
+.logo{
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
+    float: left;
+    position: absolute;
+}
+#header{
+    float: left;
+    width: 50%;
+}
+nav{
+    float: right;
+    width: 30%;
+}
+article{
+    width: 80%;
+    clear: both;
+}
 section{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-footer{}
+footer{
+    background-color: rgb(0,51,51);
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: beige;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    bottom: 0px;
+    padding: 10px;
+    text-decoration: underline;
+    font-style: italic;
+}
